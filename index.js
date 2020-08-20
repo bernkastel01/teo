@@ -2,8 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "T."; 
 
-const token = "process.env.TOKEN"
-
 client.on("ready",() => {
     console.log("Telah Online")
 })
@@ -17,4 +15,4 @@ client.on("message", message =>{
     }
 })
 
-client.login(token)
+client.login(process.env.TOKEN)
