@@ -1,1 +1,1 @@
-worker: node teo.js
+worker: node index.js
