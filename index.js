@@ -29,6 +29,9 @@ client.on("message", message =>{
     if (message.content.startsWith("aliansi")){
       message.channel.send('go go go power rangers')
     }
+        if (message.content.startsWith("alliansi")){
+      message.channel.send('waduh pasti nambahin l biar saya tidak terpicu untuk membalas')
+    }
     if (message.content.startsWith(`ping`)) {
       message.channel.send('Matamu.');
     } else if (message.content.startsWith(`beep`)) {
